@@ -1,0 +1,9 @@
+chunks/
+reports/
+baselines/
+__pycache__/
+*.pyc
+KAPSAM.md
+yazilacakmetinler.md
+arama.bat
+.agents/

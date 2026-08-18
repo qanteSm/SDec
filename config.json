@@ -1,0 +1,26 @@
+{
+  "layers": {
+    "hardware": true,
+    "boot": true,
+    "memory": true,
+    "persistence": true,
+    "filesystem": true,
+    "application": true,
+    "optimization": true,
+    "network": true
+  },
+  "output_format": "html",
+  "require_admin": false,
+  "timeout_seconds": 60,
+  "ads_scan_paths": [
+    "$env:USERPROFILE",
+    "$env:TEMP",
+    "C:\\ProgramData"
+  ],
+  "baseline": {
+    "enabled": false,
+    "snapshot_path": "baselines/"
+  },
+  "parallel_collectors": true,
+  "language": "tr"
+}
